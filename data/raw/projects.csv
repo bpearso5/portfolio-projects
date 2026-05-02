@@ -1,0 +1,21 @@
+project_id,project_name,client_name,project_manager_id,start_date,planned_end_date,actual_end_date,budget_amount,status
+1,ERP Implementation,Acme Co.,35,2025-09-03,2026-04-19,,60000,On Hold
+2,CRM Migration,Initech,6,2026-01-12,2026-05-27,,80000,On Hold
+3,Cloud Cost Optimization,Globex Logistics,3,2025-11-25,2026-05-12,2026-06-08,300000,Completed
+4,Cybersecurity Uplift,Acme Co.,2,2025-10-12,2026-06-07,,400000,InProgress
+5,Data Warehouse Rebuild,Northwind Health,46,2025-05-26,2025-10-18,,60000,in progress
+6,Customer Portal Refresh,Initech,35,2025-11-02,2026-04-13,,400000,On Hold
+7,Mobile App Launch,Acme Co.,,2025-08-10,2026-07-27,,300000,in progress
+8,HR Systems Consolidation,Cyberdyne,5,2025-08-16,2026-02-19,,300000,Paused
+9,Compliance Remediation,Initech,35,2025-05-23,2026-03-08,,120000,Canceled
+10,Procurement Automation,Cyberdyne,46,2025-10-03,2026-03-27,,60000,in progress
+11,Reporting Modernization,Acme Co.,35,2025-09-24,2026-02-05,,120000,in progress
+12,Network Upgrade,Vandelay Imports,2,2025-06-16,2025-11-03,,80000,IN-PROGRESS
+13,Onboarding Redesign,Pied Piper,4,2025-11-03,2026-06-14,,60000,In Progress
+14,Inventory Visibility,Wonka Mfg,46,2026-01-21,2026-09-05,,250000,Cancelled
+15,Patient Scheduling Pilot,Umbrella Bio,6,2025-10-21,2026-04-11,,150000,Cancelled
+16,Field Service Rollout,Soylent Foods,5,2025-08-13,2026-01-13,,400000,Cancelled
+17,Marketing Ops Migration,Hooli,2,2026-01-25,2026-05-27,,80000,Paused
+18,Vendor Risk Program,Wonka Mfg,3,2025-11-14,2026-07-21,,250000,Not Started
+19,Service Desk Re-platform,Globex Logistics,6,2026-01-27,2027-01-07,,200000,InProgress
+20,Quality Management Rollout,Vandelay Imports,46,2025-07-22,2026-06-20,2026-06-28,60000,Completed

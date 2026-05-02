@@ -1,0 +1,455 @@
+task_id,project_id,task_name,assignee_id,due_date,completed_date,status,estimated_hours
+1,1,Hand-off integration,17,2026-02-26,,Open,4
+2,1,Implement UAT plan,19,2025-10-07,,In Progress,40
+3,1,Test stakeholder briefing,41,2025-11-02,,In Progress,80
+4,1,Deploy risk register,4,2025-11-16,,In Progress,4
+5,1,Deploy requirements,1,2026-02-19,,Open,16
+6,1,Deploy integration,48,2026-03-26,,Open,24
+7,1,Validate requirements,8,2026-01-29,,In Progress,4
+8,1,Validate requirements,24,2026-03-05,,Blocked,40
+9,1,Implement requirements,20,2026-01-29,,Open,16
+10,1,Draft risk register,23,2026-04-01,,Blocked,8
+11,1,Review training materials,50,2026-03-03,,Open,40
+12,1,Kickoff integration,16,2025-12-23,,Blocked,80
+13,1,Train integration,27,2025-10-21,,Blocked,4
+14,1,Document test cases,27,2025-10-25,,In Progress,80
+15,1,Deploy integration,45,2026-02-28,2026-02-28,Done,4
+16,1,Test reports,30,2025-12-16,2025-12-24,Done,16
+17,1,Test requirements,43,2025-11-27,2025-11-27,Done,8
+18,1,Pilot data model,50,2025-12-21,,Open,16
+19,1,Configure stakeholder briefing,35,2025-12-08,,In Progress,16
+20,1,Deploy integration,38,2025-09-17,,Open,16
+21,1,Configure training materials,47,2025-09-19,,Open,80
+22,1,Validate data model,25,2025-11-29,,Open,40
+23,1,Kickoff rollout plan,1,2025-10-28,,Open,40
+24,1,Kickoff vendor SOW,48,2026-04-04,,In Progress,60
+25,2,Approve training materials,43,2026-04-22,2026-04-25,Done,80
+26,2,Validate UAT plan,43,2026-02-19,2026-02-21,Done,24
+27,2,Validate integration,13,2026-04-12,2026-04-14,Done,24
+28,2,Approve change request,20,2026-04-26,2026-04-24,Done,24
+29,2,Configure test cases,38,2026-01-19,2026-01-18,Done,40
+30,2,Plan reports,33,2026-04-11,2026-04-18,Done,24
+31,2,Validate stakeholder briefing,41,2026-03-03,2026-03-05,Done,40
+32,2,Train reports,44,2026-04-14,,Open,16
+33,2,Draft requirements,16,2026-03-17,2026-03-14,Done,24
+34,2,Kickoff vendor SOW,25,2026-02-06,2026-02-05,Done,24
+35,2,Plan vendor SOW,1,2026-05-01,,In Progress,80
+36,2,Implement test cases,45,2026-02-15,2026-02-15,Done,40
+37,2,Test risk register,8,2026-05-17,,Open,24
+38,2,Validate change request,21,2026-02-22,2026-03-03,Done,80
+39,2,Configure RACI,36,2026-05-12,2026-05-21,Done,24
+40,2,Migrate UAT plan,49,2026-02-28,2026-03-08,Done,8
+41,2,Migrate stakeholder briefing,16,2026-03-30,2026-04-08,Done,16
+42,2,Deploy reports,18,2026-05-11,,Open,16
+43,2,Implement integration,15,2026-04-10,2026-04-05,Done,24
+44,2,Configure rollout plan,22,2026-02-27,2026-02-22,Done,40
+45,2,Pilot rollout plan,25,2026-05-18,2026-05-17,Done,80
+46,3,Draft training materials,20,2026-04-28,,Open,80
+47,3,Validate vendor SOW,48,2026-03-11,2026-03-17,Done,40
+48,3,Test UAT plan,28,2026-05-05,2026-05-13,Done,24
+49,3,Plan stakeholder briefing,26,2025-12-09,,Open,60
+50,3,Approve cutover,2,2026-01-13,2026-01-10,Done,24
+51,3,Draft data model,42,2026-05-02,,In Progress,24
+52,3,Draft UAT plan,25,2026-01-05,2026-01-03,Done,16
+53,3,Document test cases,25,2026-01-25,,In Progress,16
+54,3,Review security review,2,2026-03-19,,Open,60
+55,3,Document reports,42,2026-04-19,,Open,4
+56,3,Test RACI,2,2025-12-12,2025-12-12,Done,40
+57,3,Migrate stakeholder briefing,8,2026-01-10,,Open,40
+58,3,Deploy test cases,24,2026-01-26,,In Progress,8
+59,3,Kickoff vendor SOW,8,2026-05-06,,In Progress,80
+60,3,Review change request,2,2026-01-12,,Blocked,16
+61,4,Test data model,38,2026-01-28,,Blocked,60
+62,4,Review vendor SOW,50,2026-05-19,,In Progress,16
+63,4,Train data model,37,2026-05-24,,In Progress,80
+64,4,Configure stakeholder briefing,24,2025-10-29,,Open,4
+65,4,Draft RACI,27,2026-02-25,,In Progress,80
+66,4,Document stakeholder briefing,30,2026-02-21,,Open,60
+67,4,Kickoff cutover,42,2025-11-27,,Open,16
+68,4,Train security review,30,2026-03-25,2026-04-04,Done,24
+69,4,Deploy training materials,16,2026-05-18,,In Progress,80
+70,4,Migrate reports,49,2025-11-10,,Open,24
+71,4,Configure training materials,2,2026-03-13,,In Progress,24
+72,4,Migrate reports,23,2026-05-24,,Open,80
+73,4,Hand-off change request,45,2025-12-24,,Open,16
+74,4,Test data model,16,2026-03-10,,Open,60
+75,4,Train reports,45,2026-01-31,,Open,24
+76,4,Migrate test cases,2,2026-04-02,,In Progress,4
+77,4,Kickoff reports,20,2026-01-02,,Open,60
+78,4,Validate cutover,23,2026-03-16,,Open,24
+79,4,Document vendor SOW,30,2026-04-27,,In Progress,16
+80,4,Review vendor SOW,13,2026-01-05,,Open,16
+81,4,Train vendor SOW,12,2025-11-18,,In Progress,8
+82,4,Deploy vendor SOW,38,2025-12-13,,In Progress,80
+83,4,Review RACI,13,2026-03-02,,In Progress,16
+84,4,Deploy requirements,46,2025-12-16,,Open,40
+85,4,Draft cutover,19,2025-11-20,,Open,60
+86,4,Train security review,7,2025-11-20,,In Progress,80
+87,4,Migrate security review,29,2025-10-22,,In Progress,16
+88,5,Pilot security review,8,2025-06-15,,In Progress,80
+89,5,Review change request,41,2025-06-18,,In Progress,60
+90,5,Train change request,20,2025-06-15,,Open,4
+91,5,Train rollout plan,39,2025-08-04,,Open,40
+92,5,Migrate risk register,29,2025-07-29,2025-08-03,Done,16
+93,5,Approve requirements,40,2025-09-19,,In Progress,60
+94,5,Plan reports,17,2025-06-27,2025-06-26,Done,60
+95,5,Implement cutover,5,2025-06-22,,Open,8
+96,5,Kickoff change request,31,2025-06-02,,In Progress,16
+97,5,Kickoff UAT plan,45,2025-06-10,,Open,80
+98,5,Test risk register,17,2025-09-26,,Open,80
+99,5,Validate reports,42,2025-07-22,,In Progress,8
+100,5,Draft integration,20,2025-08-09,2025-08-04,Done,40
+101,5,Migrate vendor SOW,20,2025-08-14,,In Progress,60
+102,5,Validate security review,29,2025-09-13,2025-09-22,Done,4
+103,5,Approve UAT plan,2,2025-06-12,2025-06-15,Done,4
+104,5,Pilot RACI,37,2025-07-30,,Blocked,40
+105,5,Plan RACI,18,2025-06-07,,Blocked,40
+106,5,Migrate cutover,42,2025-06-12,2025-06-10,Done,24
+107,5,Approve rollout plan,41,2025-08-12,,Open,80
+108,6,Document training materials,43,2025-12-02,2025-12-08,Done,4
+109,6,Deploy stakeholder briefing,26,2025-12-20,2025-12-28,Done,80
+110,6,Review training materials,17,2026-03-29,,Open,16
+111,6,Configure RACI,33,2025-12-08,,Blocked,80
+112,6,Migrate rollout plan,4,2025-11-09,2025-11-19,Done,8
+113,6,Plan security review,49,2026-03-21,2026-03-29,Done,4
+114,6,Hand-off UAT plan,29,2025-12-31,2025-12-28,Done,60
+115,6,Plan change request,16,2026-03-13,,Open,60
+116,6,Validate rollout plan,6,2025-12-19,2025-12-12,Done,8
+117,6,Plan RACI,10,2025-12-08,2025-12-04,Done,24
+118,6,Configure RACI,31,2026-01-22,2026-01-23,Done,24
+119,6,Configure reports,39,2026-01-10,2026-01-07,Done,40
+120,6,Train test cases,27,2025-12-13,2025-12-14,Done,16
+121,6,Deploy vendor SOW,20,2026-03-18,2026-03-11,Done,80
+122,6,Pilot integration,29,2026-04-08,2026-04-16,Done,40
+123,6,Train cutover,25,2026-03-12,2026-03-22,Done,24
+124,6,Approve rollout plan,15,2026-01-30,2026-01-30,Done,80
+125,6,Kickoff security review,46,2026-02-22,,Open,80
+126,6,Migrate requirements,9,2026-02-14,2026-02-11,Done,40
+127,6,Pilot RACI,29,2026-04-09,2026-04-05,Done,4
+128,6,Kickoff integration,27,2026-03-23,2026-03-16,Done,80
+129,6,Train UAT plan,22,2025-12-18,,Open,40
+130,6,Pilot stakeholder briefing,35,2026-02-18,2026-02-21,Done,24
+131,6,Pilot cutover,3,2026-01-29,2026-02-06,Done,40
+132,6,Plan risk register,19,2025-11-26,,In Progress,8
+133,6,Train stakeholder briefing,46,2025-12-02,2025-11-28,Done,80
+134,6,Hand-off requirements,3,2025-12-04,2025-12-06,Done,16
+135,6,Configure integration,16,2025-11-23,2025-11-27,Done,40
+136,6,Implement integration,6,2026-02-22,2026-02-20,Done,40
+137,6,Migrate risk register,38,2026-02-14,2026-02-14,Done,8
+138,7,Deploy stakeholder briefing,1,2026-04-10,2026-04-17,Done,80
+139,7,Implement data model,29,2026-04-12,2026-04-22,Done,16
+140,7,Configure vendor SOW,17,2026-06-13,,In Progress,24
+141,7,Configure RACI,31,2026-01-18,,Open,4
+142,7,Document change request,19,2025-12-16,,In Progress,60
+143,7,Pilot stakeholder briefing,26,2026-01-15,,Open,16
+144,7,Hand-off change request,48,2025-08-21,2025-08-15,Done,24
+145,7,Approve test cases,23,2026-01-10,2026-01-10,Done,8
+146,7,Deploy stakeholder briefing,49,2026-07-08,,Open,60
+147,7,Plan data model,41,2026-07-20,2026-07-17,Done,60
+148,7,Migrate requirements,38,2025-09-06,,In Progress,16
+149,7,Deploy training materials,48,2025-10-23,,Open,24
+150,7,Train cutover,24,2025-11-14,,Open,40
+151,7,Deploy risk register,31,2026-04-30,2026-04-28,Done,80
+152,7,Train data model,30,2026-01-15,2026-01-18,Done,4
+153,7,Pilot stakeholder briefing,47,2025-10-28,2025-10-28,Done,60
+154,7,Train cutover,24,2026-03-08,,Blocked,4
+155,7,Validate data model,30,2026-03-07,,Open,16
+156,7,Approve rollout plan,41,2026-07-27,2026-07-28,Done,16
+157,7,Draft change request,36,2025-10-11,2025-10-19,Done,16
+158,7,Review stakeholder briefing,30,2026-06-25,,Open,60
+159,7,Implement requirements,3,2026-01-18,2026-01-14,Done,16
+160,8,Hand-off cutover,9,2025-09-21,,Open,24
+161,8,Kickoff vendor SOW,35,2025-12-17,,In Progress,24
+162,8,Hand-off rollout plan,42,2026-01-20,2026-01-17,Done,4
+163,8,Draft vendor SOW,24,2025-12-26,2025-12-27,Done,8
+164,8,Test RACI,24,2025-12-14,,In Progress,4
+165,8,Hand-off stakeholder briefing,23,2026-02-14,,In Progress,4
+166,8,Review RACI,30,2025-12-02,,In Progress,4
+167,8,Plan change request,2,2026-02-08,,Open,4
+168,8,Implement test cases,37,2025-11-16,,Open,8
+169,8,Test change request,14,2025-09-09,2025-09-19,Done,80
+170,8,Implement test cases,39,2025-10-21,,In Progress,4
+171,8,Implement cutover,17,2025-11-01,2025-10-29,Done,80
+172,8,Pilot requirements,9,2025-10-06,,Open,4
+173,8,Approve training materials,2,2025-11-22,2025-11-22,Done,8
+174,8,Kickoff rollout plan,34,2025-10-29,,Open,4
+175,8,Train training materials,33,2025-09-08,,In Progress,40
+176,8,Test change request,3,2025-09-19,,In Progress,60
+177,8,Plan requirements,4,2026-02-07,2026-02-14,Done,24
+178,8,Review security review,46,2025-12-03,,In Progress,24
+179,8,Approve integration,5,2025-09-10,2025-09-13,Done,8
+180,8,Kickoff training materials,25,2025-11-01,2025-11-11,Done,40
+181,8,Validate change request,28,2026-01-05,,In Progress,4
+182,8,Plan stakeholder briefing,50,2026-02-18,,Open,40
+183,8,Hand-off reports,27,2025-10-17,,In Progress,16
+184,8,Kickoff data model,21,2025-12-17,,In Progress,24
+185,8,Implement stakeholder briefing,31,2025-11-11,2025-11-15,Done,4
+186,8,Configure data model,48,2025-09-15,2025-09-10,Done,60
+187,8,Draft change request,36,2025-11-26,2025-12-06,Done,40
+188,8,Document RACI,43,2025-11-15,2025-11-21,Done,80
+189,8,Deploy change request,20,2025-12-09,2025-12-03,Done,16
+190,9,Plan security review,15,2026-02-13,,Open,80
+191,9,Validate training materials,8,2025-07-24,,Open,80
+192,9,Train rollout plan,36,2025-10-19,,In Progress,80
+193,9,Plan RACI,45,2025-06-12,,In Progress,16
+194,9,Kickoff test cases,20,2025-06-13,,Open,16
+195,9,Pilot integration,37,2025-11-25,,Open,60
+196,9,Kickoff stakeholder briefing,2,2025-12-21,,Open,4
+197,9,Configure security review,22,2026-02-25,,Open,8
+198,9,Document test cases,37,2025-12-05,,Open,40
+199,9,Implement test cases,40,2025-07-12,2025-07-09,Done,4
+200,9,Plan rollout plan,32,2025-07-10,,Open,40
+201,9,Test test cases,33,2026-01-11,,Open,4
+202,9,Deploy stakeholder briefing,44,2025-11-22,,Open,40
+203,9,Deploy requirements,15,2026-02-03,,In Progress,24
+204,9,Deploy reports,50,2025-06-27,,Open,8
+205,9,Review requirements,32,2025-10-07,,Open,60
+206,9,Configure cutover,46,2026-01-05,,Open,8
+207,9,Plan test cases,23,2026-02-10,,In Progress,4
+208,10,Hand-off data model,21,2025-10-20,2025-10-27,Done,40
+209,10,Deploy data model,26,2026-01-27,2026-02-02,Done,4
+210,10,Approve security review,45,2026-01-01,,Open,16
+211,10,Test rollout plan,38,2025-11-01,2025-10-28,Done,24
+212,10,Pilot UAT plan,48,2026-02-21,,Open,16
+213,10,Review cutover,41,2025-12-05,2025-12-03,Done,4
+214,10,Document vendor SOW,42,2026-02-22,2026-02-26,Done,80
+215,10,Implement UAT plan,13,2025-11-16,,In Progress,8
+216,10,Train stakeholder briefing,5,2026-03-13,,Open,8
+217,10,Plan risk register,37,2026-03-19,2026-03-26,Done,60
+218,10,Document RACI,41,2026-03-21,,Blocked,16
+219,10,Migrate stakeholder briefing,20,2025-11-17,2025-11-25,Done,80
+220,10,Validate data model,20,2025-12-19,2025-12-23,Done,24
+221,10,Document RACI,19,2026-02-02,,Open,4
+222,10,Approve change request,33,2026-03-24,2026-03-19,Done,24
+223,10,Migrate risk register,37,2026-02-05,2026-01-30,Done,60
+224,10,Validate integration,4,2025-11-27,2025-12-05,Done,24
+225,10,Kickoff data model,33,2025-11-05,2025-11-08,Done,60
+226,10,Kickoff security review,29,2025-11-23,,Open,40
+227,10,Document risk register,19,2026-02-20,2026-02-24,Done,24
+228,10,Train stakeholder briefing,42,2026-01-22,2026-01-16,Done,16
+229,10,Plan rollout plan,19,2025-10-26,2025-11-05,Done,16
+230,10,Approve RACI,10,2026-03-27,,Blocked,16
+231,10,Hand-off training materials,20,2025-10-30,2025-10-27,Done,60
+232,10,Kickoff data model,20,2026-01-18,,Open,40
+233,10,Pilot integration,43,2026-01-14,2026-01-17,Done,60
+234,10,Plan rollout plan,33,2026-02-21,,Open,16
+235,11,Test training materials,50,2026-01-01,,Open,24
+236,11,Implement integration,5,2025-11-19,,Open,16
+237,11,Validate RACI,48,2025-10-26,,In Progress,40
+238,11,Hand-off test cases,40,2025-10-10,,In Progress,8
+239,11,Implement RACI,45,2026-01-05,,Open,80
+240,11,Draft rollout plan,24,2025-11-12,,In Progress,60
+241,11,Approve UAT plan,49,2025-11-30,,Blocked,60
+242,11,Test UAT plan,31,2026-01-23,,Open,80
+243,11,Approve security review,30,2025-11-19,,Open,80
+244,11,Validate rollout plan,11,2025-12-12,2025-12-21,Done,80
+245,11,Pilot UAT plan,4,2025-11-21,2025-11-18,Done,60
+246,11,Hand-off data model,46,2026-02-01,2026-02-11,Done,80
+247,11,Train integration,18,2025-11-01,,Open,24
+248,11,Hand-off reports,29,2025-11-07,2025-11-02,Done,16
+249,11,Configure cutover,24,2025-10-07,,In Progress,8
+250,12,Draft training materials,7,2025-07-13,,In Progress,80
+251,12,Draft UAT plan,31,2025-09-16,2025-09-13,Done,60
+252,12,Migrate change request,1,2025-07-28,2025-08-05,Done,4
+253,12,Pilot integration,36,2025-06-27,,In Progress,60
+254,12,Deploy reports,20,2025-10-09,,Open,4
+255,12,Plan test cases,40,2025-07-05,,Open,24
+256,12,Hand-off security review,39,2025-07-09,,Open,40
+257,12,Kickoff integration,19,2025-06-27,2025-06-27,Done,24
+258,12,Approve rollout plan,12,2025-06-23,2025-06-23,Done,60
+259,12,Review cutover,35,2025-07-14,2025-07-18,Done,40
+260,12,Pilot security review,3,2025-10-30,2025-11-04,Done,60
+261,12,Deploy vendor SOW,2,2025-09-30,,Blocked,16
+262,12,Kickoff stakeholder briefing,41,2025-07-10,,In Progress,4
+263,12,Document cutover,22,2025-09-16,,Open,80
+264,12,Kickoff security review,41,2025-08-06,2025-08-13,Done,8
+265,12,Train security review,3,2025-07-27,,Open,16
+266,12,Test risk register,3,2025-08-13,,Open,16
+267,12,Migrate UAT plan,3,2025-09-10,2025-09-20,Done,80
+268,12,Pilot test cases,4,2025-08-10,,In Progress,80
+269,12,Train training materials,28,2025-09-15,,In Progress,24
+270,12,Document integration,32,2025-10-13,2025-10-18,Done,60
+271,12,Train cutover,18,2025-10-28,,In Progress,80
+272,12,Configure change request,12,2025-07-14,2025-07-09,Done,40
+273,12,Review training materials,43,2025-09-06,,In Progress,16
+274,12,Kickoff rollout plan,11,2025-09-09,,In Progress,60
+275,12,Draft vendor SOW,23,2025-10-14,,In Progress,40
+276,12,Train requirements,5,2025-10-12,,In Progress,60
+277,13,Draft integration,39,2026-02-11,2026-02-09,Done,60
+278,13,Implement data model,16,2026-05-29,,In Progress,80
+279,13,Configure change request,3,2026-04-24,,In Progress,40
+280,13,Document security review,49,2025-12-19,2025-12-23,Done,4
+281,13,Document rollout plan,21,2026-04-05,,Open,60
+282,13,Review requirements,48,2026-01-20,,Open,8
+283,13,Review UAT plan,50,2026-03-17,2026-03-27,Done,16
+284,13,Approve UAT plan,45,2026-05-09,,In Progress,24
+285,13,Pilot data model,29,2025-12-31,,Open,8
+286,13,Review test cases,44,2026-05-11,,In Progress,80
+287,13,Validate cutover,19,2026-01-30,2026-01-25,Done,16
+288,13,Train training materials,33,2025-12-20,2025-12-18,Done,8
+289,13,Train integration,16,2025-12-11,,Blocked,80
+290,13,Validate change request,24,2026-03-16,,Open,24
+291,13,Implement change request,6,2026-06-03,,Blocked,4
+292,13,Kickoff vendor SOW,31,2026-01-28,,In Progress,40
+293,13,Implement training materials,42,2026-02-23,2026-02-18,Done,4
+294,13,Validate training materials,9,2026-03-05,,In Progress,80
+295,13,Train integration,28,2026-05-28,2026-05-26,Done,40
+296,13,Implement UAT plan,11,2025-11-24,2025-12-03,Done,8
+297,13,Document cutover,19,2026-01-31,2026-01-31,Done,80
+298,13,Plan cutover,18,2025-11-30,,In Progress,8
+299,13,Validate data model,33,2026-04-19,,In Progress,60
+300,13,Implement stakeholder briefing,40,2025-12-23,2025-12-20,Done,60
+301,13,Hand-off change request,3,2026-04-13,,In Progress,80
+302,13,Plan test cases,37,2025-11-17,,Open,16
+303,13,Approve rollout plan,40,2026-04-25,,Open,60
+304,14,Deploy stakeholder briefing,20,2026-06-04,2026-06-14,Done,24
+305,14,Deploy security review,5,2026-03-31,2026-04-05,Done,60
+306,14,Configure security review,30,2026-02-12,,Open,8
+307,14,Pilot vendor SOW,21,2026-04-25,2026-04-28,Done,60
+308,14,Implement test cases,24,2026-09-05,2026-09-10,Done,40
+309,14,Test security review,8,2026-06-20,,Open,16
+310,14,Review requirements,19,2026-05-23,,In Progress,24
+311,14,Pilot training materials,37,2026-07-04,2026-07-02,Done,60
+312,14,Implement security review,33,2026-04-18,,Open,24
+313,14,Draft data model,26,2026-06-04,2026-06-12,Done,40
+314,14,Test change request,23,2026-05-25,,Blocked,4
+315,14,Deploy cutover,1,2026-02-09,2026-02-17,Done,80
+316,14,Kickoff training materials,49,2026-02-24,2026-02-25,Done,24
+317,14,Draft change request,36,2026-05-01,,Open,8
+318,14,Configure cutover,29,2026-04-30,2026-04-25,Done,80
+319,15,Review integration,7,2026-04-05,,In Progress,24
+320,15,Validate training materials,49,2026-01-31,2026-02-03,Done,8
+321,15,Configure cutover,3,2025-12-17,,In Progress,4
+322,15,Document test cases,31,2025-11-06,,Open,40
+323,15,Hand-off cutover,9,2026-02-21,,Open,16
+324,15,Configure change request,48,2026-04-02,,Open,80
+325,15,Validate RACI,33,2026-01-12,,In Progress,40
+326,15,Deploy security review,2,2026-03-02,,In Progress,16
+327,15,Configure change request,20,2026-01-20,,In Progress,80
+328,15,Migrate UAT plan,42,2026-04-07,,Open,80
+329,15,Kickoff requirements,38,2026-03-25,,In Progress,24
+330,15,Kickoff change request,50,2025-12-10,,In Progress,80
+331,15,Plan reports,3,2026-02-02,,Open,40
+332,15,Migrate training materials,27,2025-11-25,,Open,8
+333,15,Configure cutover,50,2026-02-10,,In Progress,40
+334,15,Kickoff integration,34,2026-02-25,2026-02-19,Done,8
+335,15,Plan security review,34,2026-03-20,,Open,24
+336,15,Migrate risk register,35,2026-01-16,,Blocked,16
+337,15,Train RACI,47,2026-03-16,,Open,60
+338,15,Approve security review,13,2026-04-10,2026-04-11,Done,8
+339,15,Test UAT plan,50,2026-01-07,,In Progress,16
+340,15,Migrate training materials,31,2025-12-20,,In Progress,16
+341,15,Train vendor SOW,18,2026-03-20,,Blocked,16
+342,16,Configure risk register,26,2026-01-13,,In Progress,80
+343,16,Train integration,19,2025-11-16,,Blocked,4
+344,16,Review training materials,29,2025-11-01,,Blocked,60
+345,16,Test reports,35,2025-10-24,,In Progress,16
+346,16,Implement data model,40,2026-01-10,,In Progress,60
+347,16,Plan risk register,34,2025-10-20,,Open,8
+348,16,Configure training materials,46,2025-10-18,,Open,24
+349,16,Implement requirements,36,2025-09-14,,In Progress,8
+350,16,Hand-off risk register,31,2025-12-02,,In Progress,24
+351,16,Document UAT plan,42,2025-10-10,2025-10-12,Done,4
+352,16,Test cutover,48,2025-09-11,,In Progress,60
+353,16,Configure risk register,12,2025-08-29,2025-08-27,Done,4
+354,16,Hand-off vendor SOW,19,2025-11-29,2025-11-27,Done,4
+355,16,Approve data model,22,2025-08-22,,Open,16
+356,16,Validate cutover,32,2025-12-14,,Blocked,8
+357,16,Test test cases,8,2025-12-27,,In Progress,16
+358,16,Plan UAT plan,46,2025-09-30,,In Progress,8
+359,16,Train UAT plan,37,2025-08-23,,In Progress,60
+360,17,Pilot rollout plan,33,2026-02-23,2026-02-28,Done,16
+361,17,Implement integration,31,2026-02-12,2026-02-08,Done,16
+362,17,Configure reports,29,2026-03-04,,Open,80
+363,17,Deploy change request,47,2026-03-07,,Blocked,40
+364,17,Kickoff reports,4,2026-02-02,2026-02-06,Done,60
+365,17,Configure stakeholder briefing,33,2026-02-16,2026-02-14,Done,60
+366,17,Plan risk register,19,2026-05-10,2026-05-06,Done,16
+367,17,Implement security review,10,2026-04-20,,In Progress,24
+368,17,Document rollout plan,45,2026-05-07,,Blocked,40
+369,17,Train reports,44,2026-04-02,2026-04-01,Done,80
+370,17,Validate security review,34,2026-04-18,2026-04-13,Done,60
+371,17,Approve data model,4,2026-03-19,,Open,80
+372,17,Approve cutover,10,2026-04-12,2026-04-11,Done,8
+373,17,Review stakeholder briefing,14,2026-03-14,2026-03-21,Done,60
+374,17,Migrate test cases,4,2026-04-16,2026-04-25,Done,24
+375,17,Approve requirements,36,2026-02-17,2026-02-24,Done,24
+376,17,Configure UAT plan,1,2026-04-28,2026-04-21,Done,60
+377,17,Configure training materials,45,2026-02-28,2026-02-22,Done,4
+378,17,Hand-off risk register,5,2026-04-11,,Blocked,24
+379,17,Train integration,50,2026-02-05,2026-02-03,Done,60
+380,17,Document risk register,25,2026-05-05,2026-05-11,Done,24
+381,18,Plan RACI,35,2026-02-25,,Open,8
+382,18,Implement cutover,26,2026-05-07,2026-05-03,Done,40
+383,18,Test RACI,1,2025-12-23,,In Progress,80
+384,18,Migrate stakeholder briefing,47,2025-11-26,,Blocked,40
+385,18,Pilot reports,16,2026-03-09,,In Progress,24
+386,18,Test risk register,47,2026-02-17,,Open,80
+387,18,Plan rollout plan,40,2025-12-19,,Open,80
+388,18,Test reports,5,2026-07-18,2026-07-11,Done,4
+389,18,Approve stakeholder briefing,46,2026-04-22,,Open,80
+390,18,Draft rollout plan,29,2025-12-03,,Open,8
+391,18,Pilot test cases,4,2026-04-08,,Open,8
+392,18,Test RACI,47,2026-03-29,,Blocked,40
+393,18,Train stakeholder briefing,21,2026-02-10,,In Progress,8
+394,18,Test rollout plan,20,2026-02-06,2026-02-15,Done,16
+395,18,Approve risk register,48,2025-12-06,,In Progress,8
+396,18,Validate security review,4,2026-04-30,,In Progress,16
+397,18,Configure test cases,34,2026-07-20,,In Progress,16
+398,18,Implement UAT plan,25,2026-05-18,,In Progress,8
+399,18,Test RACI,15,2026-06-02,,In Progress,16
+400,18,Train security review,4,2026-06-28,,In Progress,40
+401,18,Validate cutover,9,2026-03-06,,Blocked,24
+402,18,Document stakeholder briefing,6,2026-01-22,,Open,24
+403,18,Validate vendor SOW,13,2026-06-25,,Open,4
+404,18,Approve change request,3,2026-01-28,,Open,80
+405,18,Train change request,47,2025-12-09,,Open,60
+406,18,Test RACI,22,2026-04-13,,Open,16
+407,18,Hand-off reports,48,2026-07-11,,Open,4
+408,19,Configure risk register,16,2026-06-07,2026-06-06,Done,40
+409,19,Migrate cutover,42,2026-07-17,2026-07-22,Done,16
+410,19,Validate risk register,32,2026-07-10,,In Progress,24
+411,19,Train RACI,21,2026-03-25,2026-04-02,Done,8
+412,19,Draft change request,15,2026-08-11,,In Progress,60
+413,19,Validate risk register,38,2026-04-18,,Open,40
+414,19,Test training materials,15,2026-09-04,,In Progress,24
+415,19,Validate stakeholder briefing,44,2026-11-21,2026-11-29,Done,16
+416,19,Kickoff stakeholder briefing,48,2026-06-14,2026-06-22,Done,24
+417,19,Train training materials,11,2026-09-26,,Open,8
+418,19,Hand-off risk register,35,2026-11-09,,In Progress,60
+419,19,Pilot stakeholder briefing,4,2026-03-05,2026-02-28,Done,80
+420,19,Pilot stakeholder briefing,15,2026-02-06,,In Progress,4
+421,19,Validate security review,24,2026-04-21,,Open,4
+422,19,Plan security review,2,2026-12-16,2026-12-24,Done,4
+423,19,Draft cutover,47,2026-11-02,2026-10-26,Done,16
+424,19,Draft cutover,45,2026-11-04,,Blocked,60
+425,19,Review risk register,7,2026-09-11,2026-09-09,Done,40
+426,19,Approve cutover,17,2026-04-20,,Open,80
+427,19,Configure data model,24,2026-08-03,,In Progress,24
+428,19,Deploy stakeholder briefing,6,2026-09-26,2026-09-26,Done,60
+429,19,Configure rollout plan,25,2027-01-01,2026-12-27,Done,40
+430,19,Draft vendor SOW,11,2026-10-04,,Open,4
+431,19,Approve RACI,7,2026-10-16,2026-10-19,Done,40
+432,19,Hand-off RACI,45,2026-02-24,,Open,40
+433,19,Hand-off data model,44,2026-10-04,,In Progress,16
+434,19,Implement risk register,21,2026-11-08,2026-11-02,Done,4
+435,19,Hand-off data model,20,2026-05-20,2026-05-25,Done,8
+436,19,Pilot RACI,25,2026-11-18,,Open,60
+437,19,Train vendor SOW,9,2026-11-06,,In Progress,80
+438,20,Document requirements,7,2026-04-11,,In Progress,24
+439,20,Approve test cases,40,2025-11-24,2025-11-27,Done,40
+440,20,Document requirements,41,2026-02-17,,Blocked,16
+441,20,Document cutover,25,2026-03-16,,In Progress,24
+442,20,Plan rollout plan,6,2025-11-01,,In Progress,80
+443,20,Test vendor SOW,5,2026-06-10,,Open,4
+444,20,Kickoff test cases,41,2025-12-13,,Open,8
+445,20,Review data model,1,2026-02-13,,Open,16
+446,20,Deploy data model,9,2026-03-13,,Open,4
+447,20,Validate cutover,33,2025-11-01,,In Progress,24
+448,20,Document cutover,6,2025-09-19,,Open,40
+449,20,Draft UAT plan,27,2026-05-31,2026-06-05,Done,24
+450,20,Validate risk register,16,2025-09-10,,In Progress,40
+451,20,Configure integration,9,2026-04-21,,Open,16
+452,20,Implement data model,11,2025-12-30,,Open,24
+453,20,Migrate test cases,5,2025-12-17,,In Progress,16
+454,20,Approve change request,13,2025-12-04,2025-12-12,Done,24
