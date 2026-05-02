@@ -1,5 +1,10 @@
-# Excel + SQL Portfolio Guide
-**Built for analyst, project coordinator, operations, and reporting roles**
+# Portfolio Strategy Notes — Excel + SQL Projects
+
+This is a working document of how I'm thinking about my portfolio as I move into analyst and project coordinator roles. I built it before starting Project 1 because I didn't want to put 40+ hours into the wrong project for the wrong audience.
+
+I'm sharing it in this repo for two reasons. First, it's a record of the reasoning behind the work — why I picked this project to build first, what I think hiring managers actually want to see, and what I'd build next. Second, the format itself is useful: a hiring manager who reads it gets a fast read on how I approach a problem before I start clicking around in Excel.
+
+The plan is 3 to 5 polished projects over the next few months. Project 1 (Project Portfolio Tracker) is built and lives in this repo. The rest are queued. Notes below.
 
 ---
 
@@ -155,35 +160,48 @@ Each project is scored: Beginner / Intermediate / Stretch.
 
 ## Part 3 — Portfolio Format Recommendation
 
-For someone targeting Project Analyst / Business Analyst / Ops roles, the strongest setup is a **hybrid**:
+For someone targeting Project Analyst / Business Analyst / Ops roles, my plan is:
 
-- **GitHub repo (foundation).** One repo per project. Each repo has a clean README, the SQL files, the Excel file, and screenshots in an `/images` folder. Recruiters and technical screeners look here.
-- **Notion page (front door).** A polished portfolio landing page with your bio, project summaries with screenshots, and links into each GitHub repo. This is what you put in your LinkedIn URL field, your resume header, and your email signature.
-- **LinkedIn Featured section.** Pin your top project's Notion page or a 1-page PDF case study. This is what recruiters see in the first 10 seconds.
-- **PDF case study (one per top project).** A 2-3 page PDF with screenshots, business problem, approach, findings, and recommendations. Easy to attach to applications and email to interviewers.
+- **GitHub repo (foundation, building now).** One repo as a portfolio hub, each project in its own folder with a clean README, the SQL files, the Excel file, and screenshots in `/images`. Recruiters and technical screeners look here.
+- **LinkedIn Featured section (next).** Pin the repo URL and a 1-page PDF case study from Project 1. This is what recruiters see in the first 10 seconds.
+- **PDF case study (next).** A 2-3 page PDF with screenshots, business problem, approach, findings, and recommendations. Easy to attach to applications and email to interviewers.
+- **Notion landing page (later, optional).** Could become the "front door" once I have 3+ projects — a single page with my bio, project summaries with screenshots, and links into the repo. Skipping for now since the README already does a lot of this work.
 
-Skip a personal website until you have 3+ projects done — it adds cost and friction without much hiring upside at this stage.
+Skipping a personal website until I have 3+ projects done — it adds cost and friction without much hiring upside at this stage.
 
 ### What to include in each format
 
-**GitHub repo structure (per project):**
+**GitHub repo structure (this is the actual layout I use, what you see in this repo):**
 ```
-project-portfolio-tracker/
-├── README.md                   ← project write-up (use template below)
+portfolio-projects/
+├── README.md                          ← project write-up + screenshots
+├── project_tracker_dashboard.xlsx     ← the finished Excel workbook
+├── Excel_SQL_Portfolio_Guide.md       ← this file (strategy notes)
+├── GLOSSARY.md                        ← terms I'm learning as I go
+├── interview_practice_prompt.md       ← coach prompt for Claude.ai
+├── .gitattributes                     ← tells GitHub to count SQL in language stats
 ├── data/
-│   ├── raw/                    ← original messy CSVs
-│   └── clean/                  ← cleaned CSVs
+│   └── raw/                           ← five synthetic CSVs
 ├── sql/
-│   ├── 01_create_tables.sql
-│   ├── 02_load_data.sql
-│   └── 03_analysis_queries.sql
-├── excel/
-│   └── project_tracker_dashboard.xlsx
+│   ├── 01_create_tables.sql           ← schema (PostgreSQL)
+│   ├── 02_load_data.sql               ← \copy commands to load CSVs
+│   ├── 03_analysis_queries.sql        ← 8 analysis queries
+│   └── 04_sample_inserts.sql          ← INSERT statements for DB Fiddle
+├── scripts/
+│   ├── generate_data.py               ← rebuilds the CSVs (seed=42)
+│   ├── build_workbook.py              ← rebuilds the .xlsx via openpyxl
+│   └── generate_inserts.py            ← rebuilds the SQL inserts
 └── images/
-    ├── dashboard_overview.png
-    ├── budget_burn_chart.png
-    └── status_summary.png
+    ├── Dashboard_Screenshot_1.png
+    ├── Dashboard_Screenshot_2.png
+    ├── Dashboard_Screenshot_3.png
+    ├── Database_Query.png
+    ├── Exec_OnePager.png
+    ├── sql_q2_portfolio_health.png
+    └── sql_q5_duplicate_detection.png
 ```
+
+A few notes on the choices: the .xlsx lives at the root because it's the headline deliverable — anyone who clicks "open this first" should see it without hunting. The Python scripts go in `scripts/` because they're tooling, not the work itself. The whole project is reproducible with two commands (`python3 scripts/generate_data.py` then `python3 scripts/build_workbook.py`), which I'll keep doing on every project so the repos stay rebuildable.
 
 **Notion landing page:**
 - Header: name, role you're targeting, location, contact links.
