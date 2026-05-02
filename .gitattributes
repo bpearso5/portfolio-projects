@@ -1,0 +1,6 @@
+# Tell GitHub Linguist to count SQL files in language stats.
+# Without this, large SQL files get excluded as "generated/data" and the
+# repo shows 100% Python even when most of the work is in SQL.
+*.sql linguist-detectable=true
+*.sql linguist-generated=false
+*.sql linguist-vendored=false
