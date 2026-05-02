@@ -16,21 +16,21 @@ A dashboard that surfaces project health, budget overruns, and team capacity fro
 
 A single weekly view that replaces five PM status emails. Health flag (Over Budget / At Risk / On Track) is automatic, driven by the relationship between % budget burned and % complete.
 
-![Dashboard — KPI cards and project health](images/Dashboard_Screenshot_1.png)
+![Dashboard — KPI cards and project health](Images/Dashboard_Screenshot_1.png)
 
 The dashboard pulls from cleaned Data tabs underneath. Key Excel features used: tables, XLOOKUP, COUNTIFS / SUMIFS, conditional formatting (cell-value rules and color scales), bar and line charts, and KPI cards.
 
-![Dashboard — top 5 over-budget table and monthly spend trend](images/Dashboard_Screenshot_2.png)
+![Dashboard — top 5 over-budget table and monthly spend trend](Images/Dashboard_Screenshot_2.png)
 
 The capacity hot list flags any employee who logged more than 45 hours in any of the last 8 weeks. INT() with a tie-breaker decimal makes LARGE+INDEX/MATCH return distinct names instead of duplicates.
 
-![Dashboard — capacity hot list](images/Dashboard_Screenshot_3.png)
+![Dashboard — capacity hot list](Images/Dashboard_Screenshot_3.png)
 
 ### Print-ready Executive One-Pager
 
 A separate tab summarizes the dashboard for non-Excel-native stakeholders. Designed to be printed or screenshotted into a status email.
 
-![Executive one-pager](images/Exec_OnePager.png)
+![Executive one-pager](Images/Exec_OnePager.png)
 
 ---
 
@@ -38,13 +38,13 @@ A separate tab summarizes the dashboard for non-Excel-native stakeholders. Desig
 
 PostgreSQL schema, 5 related tables, 8 analysis queries. Loaded via `sql/01_create_tables.sql` + `sql/04_sample_inserts.sql`. Database confirmed loaded with the expected row counts:
 
-![Database load — row counts confirmed](images/Database_Query.png)
+![Database load — row counts confirmed](Images/Database_Query.png)
 
 ### Q2 — Project portfolio health (the headline query)
 
 Two CTEs (one for task progress, one for budget rollup), a CASE statement for the health flag, and a NULLIF guard against divide-by-zero. Returns a fully-ranked portfolio with the at-risk story baked in.
 
-![Q2 — Project portfolio health with CASE-driven flag](images/sql_q2_portfolio_health.png)
+![Q2 — Project portfolio health with CASE-driven flag](Images/sql_q2_portfolio_health.png)
 
 The four projects flagged Over Budget — ERP Implementation, Patient Scheduling Pilot, Compliance Remediation, Cybersecurity Uplift — show the value of an automated check: each was under 13% complete but already past 100% budget burn. Two of the four belong to the same client (Acme Co.), which is its own concentrated-risk story.
 
@@ -52,7 +52,7 @@ The four projects flagged Over Budget — ERP Implementation, Patient Scheduling
 
 Demonstrates that "I can do data analysis" includes "I can find data problems." HAVING COUNT(*) > 1 surfaces 14 duplicate time entries that would otherwise inflate hours-logged totals.
 
-![Q5 — Duplicate time entries surfaced for cleanup](images/sql_q5_duplicate_detection.png)
+![Q5 — Duplicate time entries surfaced for cleanup](Images/sql_q5_duplicate_detection.png)
 
 ---
 
@@ -73,8 +73,8 @@ Demonstrates that "I can do data analysis" includes "I can find data problems." 
 | `sql/01_create_tables.sql` | Schema (PostgreSQL) |
 | `sql/02_load_data.sql` | `\copy` commands to load the CSVs |
 | `sql/03_analysis_queries.sql` | 8 analysis queries (cleaning, health flags, overdue, capacity, duplicates, top-5 overrun, monthly trend, PM scorecard) |
-| `sql/04_sample_inserts.sql` | INSERT statements for DB Fiddle / Supabase / pgAdmin |
-| `images/` | Dashboard and SQL result screenshots |
+| `04_sample_inserts.sql` | INSERT statements for DB Fiddle / Supabase / pgAdmin |
+| `Images/` | Dashboard and SQL result screenshots |
 
 ## Workbook tabs
 - **README** — what's in the workbook and how to refresh it
