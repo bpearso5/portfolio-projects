@@ -7,7 +7,7 @@ A dashboard that surfaces project health, budget overruns, and team capacity fro
 1. **Open `project_tracker_dashboard.xlsx`** to see the finished Excel dashboard with KPI cards, charts, and an executive one-pager.
 2. **Skim the screenshots below** for the 60-second visual story.
 3. **Read `sql/03_analysis_queries.sql`** to see the eight SQL queries behind the analysis.
-4. **Read `Excel_SQL_Portfolio_Guide.md`** for the full project walkthrough, design choices, and write-up template.
+4. **Read `PORTFOLIO_STRATEGY.md`** for the strategy behind this portfolio, design choices, and how I'd talk about Project 1 in interviews.
 
 ## Business Question
 
@@ -87,7 +87,8 @@ Based on the analysis, leadership should:
 | File | What it is |
 |---|---|
 | `project_tracker_dashboard.xlsx` | The finished Excel workbook. Open this first. |
-| `Excel_SQL_Portfolio_Guide.md` | Full strategy doc, 7 project ideas, write-up template, Project 1 walkthrough. |
+| `PORTFOLIO_STRATEGY.md` | Portfolio strategy, project roadmap, design choices, and interview prep. |
+| `GLOSSARY.md` | Terms I'm learning as I go — files, GitHub, SQL, Excel, job-description acronyms. |
 | `data/raw/` | Five synthetic CSVs (employees, projects, tasks, time_entries, project_budget_actuals). |
 | `sql/01_create_tables.sql` | PostgreSQL schema. |
 | `sql/02_load_data.sql` | `\copy` commands to load the CSVs. |
