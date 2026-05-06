@@ -194,5 +194,5 @@ Before I publish a project to this repo, it has to clear all of these:
 
 1. **Project 2: Patient Appointment & No-Show Analysis.** Different domain (healthcare), same depth as Project 1. Queued up.
 2. **A 1-page PDF case study from Project 1** to pin to LinkedIn Featured.
-3. **Resume + LinkedIn updates** using the bullets above, with a link back to this repo.
-4. **Practice the interview answers above out loud** until I can deliver each in under 90 seconds without notes.
+3. **Resume + LinkedIn updates** with a link back to this repo.
+4. **Interview prep practice** — running through the prompt in `interview_practice_prompt.md` until I can answer each mode in under 90 seconds without notes.
