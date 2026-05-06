@@ -41,35 +41,9 @@ A weekly executive dashboard for a 50-person services firm running 20 active cli
 
 **For the full project walkthrough with screenshots,** see [README.md](README.md).
 
----
+### Why I picked this one first
 
-## How I'd Talk About Project 1 in Interviews
-
-These are the bullets I've prepared for resume and cover-letter use, plus the conversational versions I've practiced for screens.
-
-### Resume bullets
-
-- Designed and built a project portfolio dashboard in Excel and SQL covering 20 projects and 50 staff, surfacing 4 over-budget projects and a $95K cost-overrun pattern in a single weekly view.
-- Wrote 8 SQL analysis queries (PostgreSQL — CTEs, joins across 5 tables, CASE logic) to standardize messy project-status data and calculate budget-burn vs. percent-complete health flags.
-- Built an executive Excel dashboard with 1,265 formulas (XLOOKUP, COUNTIFS/SUMIFS, conditional formatting, charts) and a print-ready 1-page summary used to recommend re-baselining 4 over-budget projects.
-- Identified 10 overallocated employees by analyzing 8 weeks of time entries and flagged 14 duplicate time-tracking records via a SQL data-quality check.
-
-### Common interview-question answers
-
-**"Tell me about a project you're proud of."**
-"I built a project portfolio dashboard for a 50-person services-firm scenario — 20 projects, five tables in SQL, around 3,000 rows. The interesting part was the at-risk logic. I flagged any project where budget burn was running more than 15 points ahead of percent complete. That surfaced four projects that were technically on schedule but spending faster than the work justified. In a real engagement, that's the difference between catching an overrun in week 3 vs. at month-end close."
-
-**"Walk me through a SQL query you wrote."**
-"My headline query joins projects, tasks, and budget actuals using two CTEs. One rolls up tasks to a percent-complete number, the other rolls up monthly budget records to actual spend per project, and the outer query combines them with a CASE statement that produces an On Track / At Risk / Over Budget flag. I used `NULLIF` to guard against divide-by-zero — a small detail that comes up the moment you have a project with no tasks logged yet."
-
-**"How do you handle messy data?"**
-"In this project, project status values came in with mixed case and inconsistent terms — 'In Progress', 'in-progress', 'INPROGRESS' — because real PMs type statuses differently. I wrote a CASE statement to normalize them. Separately, I wrote a duplicate-detection query on time entries using `HAVING COUNT(*) > 1` that flagged 14 duplicates. That kind of check is what I'd want running every week before any labor-cost analysis."
-
-**"What was the business impact?"**
-"The dashboard replaces five separate PM status emails. The COO gets a same-format view every Monday, and the at-risk logic gives a 2-3 week head start on cost overruns instead of finding them at month-end close. My recommendations included re-baselining the four over-budget projects, redistributing work from overallocated staff, and opening a structured conversation with one client whose two projects accounted for half the overrun."
-
-**"Why did you pick this project?"**
-"It mirrors what I've already done in project management roles — keeping track of multiple workstreams, status, budget, and capacity — but it lets me show I can do it with SQL and Excel as a single repeatable pipeline instead of as a manually maintained spreadsheet. It was the project that let me demonstrate every core skill — joins, CTEs, CASE, GROUP BY, conditional formatting, XLOOKUP, KPI cards — in one piece of work."
+Three reasons. It mirrors my work history directly, so I can talk about it from real experience, not theory. Every hiring manager I want to talk to recognizes the shape of the problem instantly — no setup needed. And the scope let me use *every* core Excel and SQL skill in a single piece of work, which means one well-built project does the work of three thinner ones.
 
 ---
 
@@ -85,15 +59,11 @@ These are the bullets I've prepared for resume and cover-letter use, plus the co
 | Inventory & Reorder Analysis | Retail / Supply Chain | Reorder logic, ABC analysis | Future |
 | Hiring Pipeline Funnel | Recruiting | Conversion rates, time-in-stage | Future |
 
-### My top 3 (the projects I think do the most work for me in interviews)
+### My top 3
 
 1. **Project Portfolio Tracker** — strongest match for my project management background; built first.
 2. **Patient No-Show Analysis** — adds healthcare domain range and gives me a "we recommended X intervention" story.
 3. **Departmental Budget vs. Actual Tracker** — shows I can speak the language of finance and leadership.
-
-### Why I picked Project 1 first
-
-Three reasons. It mirrors my work history directly, so I can talk about it from real experience, not theory. Every hiring manager I want to talk to recognizes the shape of the problem instantly — no setup needed. And the scope let me use *every* core Excel and SQL skill in a single piece of work, which means one well-built project does the work of three thinner ones.
 
 ---
 
@@ -160,6 +130,8 @@ The two CTEs handle each rollup separately. Without them, the SELECT would have 
 - **Plan the screenshots before building.** I built the workbook, then realized I needed to take screenshots, then realized two of them looked confusing without a caption. Next time I'll think about the README story first and let that drive what the dashboard needs to show.
 - **Write the SQL inserts script earlier.** I built the dataset using Python and CSVs, which is great for openpyxl but not for sharing the data with someone running queries online. I added `generate_inserts.py` late. Next project I'll plan for "anyone should be able to load this dataset into DB Fiddle in 30 seconds" from the start.
 - **Don't over-engineer the data quality demo.** I planted exactly 14 duplicates — a perfect number for the screenshot but slightly artificial-looking. Next time I'd plant an uneven distribution (7 from one source, 3 from another, 2 from a third) so the data-quality query tells a richer story.
+
+For my interview-prep prompts and resume-bullet drafts, see [`interview_practice_prompt.md`](interview_practice_prompt.md).
 
 ---
 
